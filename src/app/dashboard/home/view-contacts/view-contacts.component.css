@@ -1,0 +1,33 @@
+.custom-round{
+  border-radius: 50%;
+}
+
+.no-padding {
+  padding: 0px;
+}
+
+.pagination-row {
+  background-color: #f2f2f2;
+}
+
+.pagination-icon {
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.pagination-previous, .pagination-next {
+  margin-right: 7px;
+}
+
+.custom-pagination .page-number {
+  display: inline-block;
+}
+
+.page-number span {
+  display: inline-block;
+  margin-right: 7px;
+}
+
+
+

@@ -1,0 +1,60 @@
+<div class="container mt-5">
+  <h3 class="text-center">
+    {{actionChosen}} Contact
+  </h3>
+  <div class="employees-form mt-3">
+    <!-- <form [formGroup]="employeeForm">
+
+      <div>
+        <label>
+          Name:
+          <input class="form-control" type="text" formControlName="name">
+        </label>
+      </div>
+      <div>
+        <label>
+          Designation:
+          <input class="form-control" type="text" formControlName="designation">
+        </label>
+      </div>
+      <div>
+        <label>
+          Salary:
+          <input class="form-control" type="text" formControlName="salary">
+        </label>
+      </div>
+    </form> -->
+
+      <form [formGroup]="contactForm">
+        <div class="form-group">
+          <label for="formGroupExampleInput">First Name:</label>
+          <input type="text" formControlName="first_name" class="form-control" id="formGroupExampleInput" placeholder="First Name:">
+        </div>
+        <div class="form-group">
+          <label for="formGroupExampleInput">Last Name:</label>
+          <input type="text" formControlName="last_name" class="form-control" id="formGroupExampleInput1" placeholder="Last Name:">
+        </div>
+        <div class="form-group">
+          <label for="formGroupExampleInput2">Email:</label>
+          <input type="text" formControlName="email" class="form-control" id="formGroupExampleInput2" placeholder="Email">
+        </div>
+        <div class="form-group">
+          <label for="formGroupExampleInput3">Phone Number:</label>
+          <input type="number" formControlName="phone_number" class="form-control" id="formGroupExampleInput3" placeholder="Phone Number">
+        </div>
+        <div class="form-group">
+          <label for="formGroupExampleInput7">Active Status:</label>
+          <label class="switch padding-checkbox">
+            <input type="checkbox" id="formGroupExampleInput7" formControlName="status">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="form-group">
+          <button type="button" [disabled]="!contactForm.valid" (click)="saveAndRedirect()" class="btn btn-primary">Save</button>
+          <button type="button" (click)="cancelAndRedirect()" class="btn btn-secondary ml-1">Cancel</button>
+        </div>
+      </form>
+
+
+  </div>
+</div>
