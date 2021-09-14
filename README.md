@@ -10,13 +10,14 @@ Things implemented in this project
 4) Ability to edit an existing contact and choosing the status using the toggle button
 5) Ability to delete an existing contact from the directory 
 6) Added pagination to the table to accomodate 250 rows together. By default, the user sees only 10 rows per page
-7) The user has the option switch to any particular directly using the Dropdown option which will take him to the respective page
+7) The user has the option switch to any particular page directly using the Dropdown option
 8) The user has the ability to switch back and forth using the next and previous icons
 9) The user is able to view page information like the start and end index of a particular page
 10) The user gets to choose the no of rows in a particular page using the dropdown option
-6) Ability to filter the Contact Information by first name, last name, email, phone number or status
-7) Validation for Phone number as no text can be entered there.
-8) All the components in the web app are unit tested with code coverage over 100% and you can find the coverage report under coverage folder in the root directory
+11) The user gets navigated back to the first page the moment we change the no of rows dropdown option
+12) Ability to filter the Contact Information by first name, last name, email, phone number or status
+13) Validation for Phone number as no text can be entered there.
+14) All the components in the web app are unit tested with code coverage over 100% and you can find the coverage report under coverage folder in the root directory
 
 While creating this web app, the best software design practices and coding standards were used. I have segregated the components, filters, services, models for better folder structure. 
 
